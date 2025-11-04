@@ -6,6 +6,7 @@
     <title> ral ANIMATION studios - Animaciones
     </title>
 	<script type="text/javascript" src="resources/ieupdate.js"></script>
+  <script src="ruffle/ruffle.js"></script>
 	<style type="text/css">
 	<!--
 	body{
@@ -20,14 +21,17 @@
   <body>
     <div class="head">
 	<script type="text/javascript">startIeFix();</script>
-      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="800" height="100" align="middle">
+  <div id="MENU">
+  
+    </div>>
+  <!--  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="800" height="100" align="middle">
         <param name="movie" value="menu3.swf">
         <param name="quality" value="high">
         <param name="bgcolor" value="white">
         <param name="wmode" value="transparent">
         <embed src="resources/menu3.swf" wmode="transparent" quality="high" bgcolor="white" width="800" height="100" align="middle" name="menu" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
       </object>
-	<!-- --><script type="text/javascript">endIeFix();</script>
+	--><script type="text/javascript">endIeFix();</script>
     </div>
 
     <div class="intro">
@@ -324,6 +328,26 @@
     <!-- Copy Right -->
     <div class="foot"> &#169; Ral ANIMATION Studios
     </div>
-  
+    <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+
+        // Player 1
+        const menu = ruffle.createPlayer();
+        const container1 = document.getElementById("MENU");
+        container1.appendChild(menu);
+        menu.load({
+            url: "menu3.swf",
+            backgroundColor: "#000",
+            quality: "high",
+            wmode: "transpartent",
+            autoplay: "on",
+            unmuteOverlay: "hidden"
+        });
+        menu.style.width = "800px";
+        menu.style.height = "100px";
+    });
+</script>
 
 </body></html>
