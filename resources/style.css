@@ -1,0 +1,206 @@
+body{
+	background-color: White;
+	color: Black;
+	text-align: center;
+	font-family: Arial, Verdana, Geneva,  Helvetica, sans-serif;
+	font-size: 12px;
+}
+img{
+	margin: 7px 3px 7px 3px;
+	border: none;
+}
+.content{
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.head{
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	width: 800px;
+	height: 100px;
+	background-color: transparent;
+	color: Black;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+.hadb{
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+
+}
+.imagenes{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: transparent;
+	color: Black;
+	padding-bottom: 10px;
+}
+.imagenes table{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.intro{
+	text-align: justify;
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+}
+.ani-new{
+	background-image: url(imagenes/new.gif);
+	padding-top: 45px;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: transparent;
+	color: Black;
+}
+.ani-short{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(imagenes/shorties.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: transparent;
+	color: Black;
+	padding-top: 45px;
+	padding-bottom: 10px;
+}
+.ani-long{
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(imagenes/longies.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color: transparent;
+	color: Black;
+	padding-top: 45px;
+	padding-bottom: 10px;
+}
+.icons{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: transparent;
+	color: Black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+.ani-page{
+	background-color: transparent;
+	color: Black;
+	text-align: justify;
+	width: 700px;
+	display: block;
+	padding-bottom: 10px;
+	margin-left: 150px;
+}
+.links{
+	background-color: transparent;
+	color: Black;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	background-image: url(imagenes/links.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+	padding-top: 45px;
+	margin-top: 20px;
+}
+.foot{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #9F9F9F;
+	background-color: transparent;
+	font-weight: bold;
+}
+.foot a{
+	color: #9F9F9F;
+	background-color: transparent;
+	font-weight: bold;
+	text-decoration: none;
+}
+.foot a:hover{
+	color: #9F9F9F;
+	background-color: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+
+.nhead{
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	height: 100px;
+	background-color: Black;
+	color: Black;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+.nani-page{
+	background-color: Black;
+	color: Black;
+	text-align: justify;
+	width: 700px;
+	display: block;
+	padding-bottom: 10px;
+	margin-left: 150px;
+}
+.nfoot{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #9F9F9F;
+	background-color: Black;
+	font-weight: bold;
+}
+.vadl{
+	display: inline;
+	float: left;
+	position: relative;
+	overflow: auto;
+	top: 10px;
+	left: 10px;
+
+}
+.vadr{
+	display: inline;
+	float: right;
+	position: relative;
+	overflow: auto;
+	top: 10px;
+	right: 10px;
+
+}
+.vermas a{
+	background-color: transparent;
+	color: #FF8C00;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.vermas a:hover{
+	background-color: transparent;
+	color: #FF8C0C;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 15px;
+}

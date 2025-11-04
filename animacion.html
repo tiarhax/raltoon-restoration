@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta lang="es-mx" name="keywords" content="flash, macromedia, adobe, games, game, juegos, ral, animation, toon, studio, studios, animacion, imagenes, iconos, ralito, ranito" xml:lang="es-mx">
+    <link rel="stylesheet" href="resources/style.css" type="text/css">
+    <title>
+      ral ANIMATION studios -
+      2010    </title>
+    <script type="text/javascript" src="resources/ieupdate.js"></script>
+    <script src="ruffle/ruffle.js"></script>
+ </head>
+<body>
+<div style="width:800px; position:relative; margin-left:auto; margin-right:auto">
+	<div id="MENU" style="text-align:center; width:100%">
+		<script type="text/javascript">startIeFix();</script>
+
+
+		 <!--  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="800" height="100" align="middle">
+			<param name="movie" value="menu3.swf">
+			<param name="quality" value="high">
+			<param name="bgcolor" value="white">
+			<param name="wmode" value="transparent">
+			<embed src="resources/menu3.swf" wmode="transparent" quality="high" bgcolor="white" width="800" height="100" align="middle" name="menu" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">
+		  </object>
+		--><script type="text/javascript">endIeFix();</script>
+	</div>
+	<br><br>
+		<div style="text-align:center;">
+		<table width="700">
+			<tbody><tr>
+				<td align="center" width="150">
+				<a href="http://medusask8.blogspot.com/" target="_blank"><img src="resources/medusa1.png" border="0" title="medusa skate 1"></a>				</td>
+				<td align="center" valign="middle" width="550">
+					<script type="text/javascript"><!--
+						google_ad_client = "pub-4931083680914106";
+						/* 468x60, creado 22/11/09 */
+						google_ad_slot = "3989165014";
+						google_ad_width = 468;
+						google_ad_height = 60;
+						//-->
+					</script>
+					<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+					<br>
+					<script type="text/javascript">startIeFix();</script>
+					<div id="animacion">
+
+                    </div>
+						<!-- --><script type="text/javascript">endIeFix();</script>
+						<br>
+						<script type="text/javascript"><!--
+						google_ad_client = "pub-4931083680914106";
+						/* 468x60, creado 21/11/09 */
+						google_ad_slot = "7868963946";
+						google_ad_width = 468;
+						google_ad_height = 60;
+						//-->
+						</script>
+						<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+				</td>
+			</tr>
+		</tbody></table>
+		<br>
+		<div class="foot" style="text-align:center">
+			© Ral ANIMATION Studios
+		</div>
+	</div>
+
+
+</div></body>
+<script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+
+        // Player 1
+        const menu = ruffle.createPlayer();
+        const container1 = document.getElementById("MENU");
+        container1.appendChild(menu);
+        menu.load({
+            url: "menu3.swf",
+            backgroundColor: "#000",
+            quality: "high",
+            wmode: "transpartent",
+            autoplay: "on",
+            unmuteOverlay: "hidden"
+        });
+        menu.style.width = "800px";
+        menu.style.height = "100px";
+
+        // Player 2
+        const animacion = ruffle.createPlayer();
+        const urlParams = new URLSearchParams(window.location.search);
+        const aniParam = urlParams.get('ani');
+        const container2 = document.getElementById("animacion");
+        container2.appendChild(animacion);
+        animacion.load({
+            url: `animaciones/${aniParam}.swf`,
+            backgroundColor: "#000",
+            quality: "high",
+            wmode: "transpartent"
+        });
+        animacion.style.width = "550px";
+        animacion.style.height = "400px";
+    });
+</script>
+</html>
